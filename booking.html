@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Five Star Hotel | Booking</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="layout.css" rel="stylesheet" type="text/css" />
+<script src="maxheight.js" type="text/javascript"></script>
+</head>
+<body id="page5" onload="new ElementMaxHeight();">
+<div id="main">
+  <!-- header -->
+  <div id="header">
+    <div class="row-1">
+      <div class="wrapper">
+        <div class="logo">
+          <h1><a href="#">Hotel Booking</a></h1>
+          <em>online</em> <strong>System</strong> </div>
+        <div class="phones"> <a href="#"></a><br />
+         <a href="#"></a></div>
+      </div>
+    </div>
+    <div class="row-2">
+      <div class="indent">
+        <!-- header-box begin -->
+        <div class="header-box">
+          <div class="inner">
+            <ul class="nav">
+              <li><a href="index.html">Home page</a></li>
+              <li><a href="services.html">Services</a></li>
+              
+              <li><a href="booking.html" class="current">Booking Status</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- header-box end -->
+      </div>
+    </div>
+  </div>
+  <!-- content -->
+  <div id="content">
+    <div class="wrapper">
+      <div class="aside maxheight">
+        <!-- box begin -->
+        <div class="box maxheight">
+          <div class="inner">
+            <h3>Check Your Booking:</h3>
+            <form action="book_check.php" method="post" id="reservation-form">
+              <fieldset>
+                <div class="field">
+                  <label>Booking Phone number:</label>
+				  <div>
+                  <input type="tel" name="phone" style="width:130px;height:20px"required>
+				  </div>
+                </div>
+                <br>
+                <div><span><span><input style="padding:5px;border:none;font-size:12px;border-radius:2px;background:red;color:white;width:80px;" type="submit" name="submit" value="CHECK"></span></span></div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+        <!-- box end -->
+      </div>
+      <div class="content">
+        <div class="indent">
+          <h2>Our location</h2>
+          <img class="img-indent png" alt="" src="images/5page-img1.png" />
+          <div class="extra-wrap">
+            <p class="alt-top">Our hotel is located in the heart of pulincunnoo surrounded by backwaters and churchs.</p>
+            <p>Please feel free to come visit us at the following adress:</p>
+            <dl class="contacts-list">
+              <dt>PULINCUNNOO</dt>
+              <dd>1-800-412-4556</dd>
+              <dd>1-800-542-6448</dd>
+            </dl>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <div id="footer">
+    <ul class="nav">
+    </ul>
+    <div class="wrapper">
+      <div class="fleft">Copyright &copy; 2018</div>
+      <div class="fright">Designed by GROUP-8</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
